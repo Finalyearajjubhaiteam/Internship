@@ -1,0 +1,30 @@
+p {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    top: 60px;
+}
+
+.absolute {
+    background-color: greenyellow;
+    position: absolute;
+    left: 60px;
+}
+
+.fixed {
+    background-color: goldenrod;
+    position: fixed;
+    top: 20px;
+}
+
+.default {
+    background-color: lightblue;
+    position: relative;
+    top: 80px;
+}

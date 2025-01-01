@@ -1,0 +1,101 @@
+/* alt+shift+a --> comment line 
+default property of p: color : black
+size : 16px
+family ; times new roman
+*/
+
+body {
+    /*background-image: url('../image1.png');
+    background-size: cover;*/
+    /*background: linear-gradient(to right, red, yellow, rgb(24, 6, 6)) url(./image.png);*/
+    background: linear-gradient(to right, red, yellow, rgb(24, 6, 6));
+}
+
+p {
+    color: rgb(129, 79, 15);
+    /* default : black */
+    text-transform: capitalize;
+    /*Capitalize the first letter of each word
+    uppercase: converting given text into upper case
+    lowercase: converting given text into lower case
+    default:normal
+    */
+}
+
+p1 {
+    text-transform: lowercase;
+}
+
+p2 {
+    text-transform: capitalize;
+}
+
+p3 {
+    text-decoration: underline;
+}
+
+p4 {
+    text-decoration: line-through;
+}
+
+p5 {
+    text-decoration: overline;
+}
+
+p6 {
+    writing-mode: horizontal-tb;
+}
+
+p7 {
+    text-shadow: 2px 2px 0px rgb(124, 41, 55);
+    /* shadow : x-axis y-axis blur color-code*/
+    /* default : none */
+    /* letter-spacingh: 20px;*/
+    /* default:0px
+    px,%*/
+}
+
+p9 {
+    letter-spacing: 5px;
+    background-color: rebeccapurple;
+}
+
+p10 {
+    word-spacing: 4px;
+}
+
+p11 {
+    line-height: 7px;
+}
+
+h4 {
+    text-align: center;
+    /* default : none */
+    /* letter-spacingh: 20px;*/
+    /* default:0px
+    px,%*/
+    line-height: 3px;
+}
+
+h6 {
+    text-align: left;
+}
+
+p5 {
+    text-align: right;
+}
+
+* {
+    padding: 2;
+    margin: 2;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    margin-left: 20px;
+    padding: 2px;
+    border: 1px, solid black;
+    border-radius: 5px;
+    outline: invert;
+}

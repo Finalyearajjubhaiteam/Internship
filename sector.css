@@ -1,0 +1,36 @@
+h1 {
+    color: aqua;
+}
+
+.blueclass {
+    color: brown;
+}
+
+p {
+    color: blue;
+}
+
+*id1 {
+    color: antiquewhite;
+}
+
+* {
+    padding: 2px;
+    margin: 2px;
+    color: rgb(13, 13, 3);
+}
+
+button:hover {
+    background-color: chartreuse;
+    color: blueviolet;
+    border-radius: 20px;
+}
+
+a:visited {
+    color: calc(111);
+}
+
+a:active {
+    background-color: black;
+    color: chocolate;
+}

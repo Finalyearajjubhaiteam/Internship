@@ -1,0 +1,32 @@
+p {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 40px;
+    display: inline-block;
+}
+
+.A {
+    display: inline-block;
+    /* Keeps the divs inline with each other */
+}
+
+
+/* You had a typo, changing class to match 'A' */
+
+.A p {
+    display: block;
+    /* Makes each paragraph a block-level element inside the div */
+}
+
+.links a {
+    display: inline-block;
+    /* Makes the links inline-block */
+    margin-right: 10px;
+    /* Adds space between the links */
+    padding: 5px;
+    text-decoration: none;
+    /* Removes underline from links */
+    background-color: lightblue;
+    /* Adds a background color to the links */
+}
